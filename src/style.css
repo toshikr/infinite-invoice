@@ -1,0 +1,90 @@
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #2ab0d5;
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-form label {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+.input-form button {
+  margin-top: 50px;
+  padding: 10px 20px;
+}
+
+.items-section {
+  display:contents;
+  justify-content:center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.items-section button {
+  align-items: end;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.InvoiceDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invoice-container {
+  border: 5px solid #d2d0d0;
+  padding: 20px;
+  width: 50%;
+}
+
+.client-details {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.items-table th,
+.items-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.items-table th {
+  background-color: #f2f2f2;
+}
+
+.total-amount {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.invoice-list{
+  margin: 20px;
+}
+
+.invoice-list li {
+  margin: 5px;
+  border: 1px solid black;
+  padding: 10px;
+}
